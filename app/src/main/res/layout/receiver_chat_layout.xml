@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:paddingStart="4dp"
+    android:paddingTop="1dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="1dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutForMessageReceiverChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/recieverchatdrawble"
+        android:orientation="vertical"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewReceiverMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|start|top"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|start|top"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="textView Receiver Message Show Here"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewTimeOfReceiverMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|end"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif"
+            android:gravity="bottom|center|end"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="25-12-2021  12:59 AM"
+            android:textColor="#434343"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

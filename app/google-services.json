@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33752426651",
+    "firebase_url": "https://whatsapp-lite-8625d-default-rtdb.firebaseio.com",
+    "project_id": "whatsapp-lite-8625d",
+    "storage_bucket": "whatsapp-lite-8625d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33752426651:android:059dfa6ff453819ff7be3e",
+        "android_client_info": {
+          "package_name": "com.pritampachal.mychattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33752426651-fs217jogk8cb2g4m4flfm4ljvfhcdam8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pritampachal.mychattingapp",
+            "certificate_hash": "dbb8c189fccd6af1690d1ddc762d276fb47440f0"
+          }
+        },
+        {
+          "client_id": "33752426651-1k73icq9tmli0aaksjc87jo9hlh3dpuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMt0b2JMs_gIxilu8k7MtNWbf2CzcEDUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33752426651-1k73icq9tmli0aaksjc87jo9hlh3dpuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
